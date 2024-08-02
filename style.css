@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around; /* Center the navbar */
+    align-items: baseline;
+    position: fixed;
+    width: 100%; /* Ensure the navbar spans the full width of the viewport */
+    /* background-color: rgba(115, 35, 25, 0.3); Add a background color for visibility */
+    padding: 10px 0; /* Optional: Add some padding to the navbar */
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    
+
+}
+.cover{
+    /* height: 100vh; */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    /* padding-top: 80px; */
+    
+}
+.cover-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    /* line-height:1;  */
+    position: absolute; /* Position it absolutely within the cover */
+top: 25%;
+left: 50%;   
+    margin: 0; /* Remove any default margin */
+    
+}
+.cover-text h1, h2, h3{
+    margin: 5px;
+}
